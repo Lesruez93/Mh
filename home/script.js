@@ -454,26 +454,6 @@ jQuery(function(){
 
             console.log(message);
 
-            // $('#myModal').modal({
-            //     refresh: true
-            // });
-
-
-            // $('#myModal').on('show.bs.modal', function (event) {
-            //
-            //
-            //   //  var button = $(event.relatedTarget) // Button that triggered the modal
-            //
-            //   //  console.log(event);
-            //     //var recipient = button.data('whatever')
-            //
-            //     var modal = $(this);
-            //
-            //     modal.find('.modal-title').text(message);
-            //     modal.find('.modal-body p').text(content);
-            //     modal.find('.modal-body img') .attr('src', imageSrc);
-            //
-            // })
         }
 
     });
