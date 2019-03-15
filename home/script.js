@@ -3,6 +3,15 @@
 jQuery.noConflict();
 jQuery(function(){
     var $ = jQuery;
+    $(document).ready(function(){ /*code here*/
+    console.log("page loded");
+        document.getElementsByTagName('video')[0].play().then(s=>{
+            console.log('playi')
+        });
+
+    });
+
+
 
     $('#focus-single').click(function(){
         $('#map1').vectorMap('set', 'focus', {region: 'AU', animate: true});
@@ -477,6 +486,7 @@ jQuery(function(){
             });
 
     $('video').bind('ended', function (e) {
+        window.open('host.html');
 
             $('video').hide(2000);
                     $('#hh').show(2000)
@@ -484,6 +494,7 @@ jQuery(function(){
 
 
     $('video').bind('pause', function (e) {
+        window.open('host.html')
 
                 $('video').hide(2000);
                 $('#hh').show(2000)
