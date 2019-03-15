@@ -482,22 +482,20 @@ jQuery(function(){
 
     $('video').bind('playing', function (e) {
 
-                $('#hh').hide(200)
+
             });
 
     $('video').bind('ended', function (e) {
-        window.open('host.html');
+        window.open('landing.html','_self');
 
-            $('video').hide(2000);
-                    $('#hh').show(2000)
+
                 });
 
 
     $('video').bind('pause', function (e) {
-        window.open('host.html')
+        window.open('landing.html','_self');
 
-                $('video').hide(2000);
-                $('#hh').show(2000)
+
             });
 
 
